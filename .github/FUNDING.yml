@@ -1,0 +1,25 @@
+# Platform:                                           Syntax:
+# LFX Mentorship (formerly CommunityBridge)           community_bridge: PROJECT-NAME
+# LFX Crowdfunding                                    lfx_crowdfunding: PROJECT-NAME
+# GitHub Sponsors (need to be registered)             github: USERNAME or github: [USERNAME, USERNAME, USERNAME, USERNAME]
+# IssueHunt                                           issuehunt: USERNAME
+# Ko-fi                                               ko_fi: USERNAME
+# Liberapay                                           liberapay: USERNAME
+# Open Collective                                     open_collective: USERNAME
+# Otechie                                             otechie: USERNAME
+# Patreon                                             patreon: USERNAME
+# Tidelift                                            tidelift: PLATFORM-NAME/PACKAGE-NAME
+# Custom URL                                          custom: LINK or custom: [LINK, LINK, LINK, LINK]
+
+# For Tidelift, use the platform-name/package-name syntax with the following platform names:
+# Language:           Platform name:
+# JavaScript          npm
+# Python              pypi
+# Ruby                rubygems
+# Java                maven
+# PHP                 packagist
+# C#                  nuget
+
+# github: ValentinColin
+custom: 
+  - https://paypal.me/ValentinColin408

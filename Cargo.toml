@@ -1,0 +1,19 @@
+[package]
+name = "<project name>"
+version = "0.1.0"
+authors = ["Valentin Colin <valentin.colin78@gmail.com>"]
+edition = "2021"
+description = "<enter a description of your project>"
+readme = "README.md"
+homepage = "https://github.com/ValentinColin/<project name>.git"
+repository = "https://github.com/ValentinColin/<project name>.git"
+license = "MIT"
+licence-file = "LICENSE"
+keywords = []
+
+[dependencies]
+clippy = {version = "0.0.21", optional = true}
+
+[features]
+default = []
+dev = ["clippy"]
