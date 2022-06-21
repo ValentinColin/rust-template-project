@@ -36,6 +36,7 @@ This project is awesome
     * [Manual installation](#manual-installation)
 * [Usage](#usage)
 * [Tests](#tests)
+* [Potential Maintainers](#potential-maintainers)
 * [Credits](#credits)
 
 ## Installation
