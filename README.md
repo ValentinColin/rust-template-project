@@ -84,5 +84,5 @@ Thank you for considering and taking the time to contribute! Before contributing
 ## Credits
 
 <a href="https://github.com/ValentinColin/rust-template-project/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ValentinColin/rust-template-project" />
+  <img src="https://contrib.rocks/image?repo=ValentinColin/rust-template-project" alt="contributors"/>
 </a>
