@@ -8,8 +8,8 @@ readme = "README.md"
 homepage = "https://github.com/ValentinColin/rust-template-project.git"
 repository = "https://github.com/ValentinColin/rust-template-project.git"
 license = "MIT"
-licence-file = "LICENSE"
-keywords = []
+# licence-file = "LICENSE"
+keywords = ["template"]
 
 [dependencies]
 clippy = {version = "0.0.21", optional = true}
