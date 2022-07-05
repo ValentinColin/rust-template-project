@@ -1,11 +1,12 @@
 # Welcome on a template project
 ## Task to do for configure this template
 
-| Required                                    | Recommended                                            | Optional                         |
-|:-------------------------------------------:|:------------------------------------------------------:|:--------------------------------:|
-| Configure the [Cargo.toml](Cargo.toml) file | Change [.github/FUNDING.yml](.github/FUNDING.yml) file | Change the [LICENCE](LICENCE)    |
-| Change the [README.md](README.md) file      |||
-| :tada: Have fun !!! :tada:                  | :books: Learn :books:                                  | :star: Like this template :star: |
+| Required                                           | Recommended                                            | Optional                         |
+|:--------------------------------------------------:|:------------------------------------------------------:|:--------------------------------:|
+| Configure the [Cargo.toml](Cargo.toml) file        | Change [.github/FUNDING.yml](.github/FUNDING.yml) file | Change the [LICENCE](LICENCE)    |
+| Change the [README.md](README.md) file             |||
+| Change the [ci.yml](.github/workflows/ci.yml) file |||
+| :tada: Have fun !!! :tada:                         | :books: Learn :books:                                  | :star: Like this template :star: |
 
 > delete everything before this
 
