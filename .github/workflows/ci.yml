@@ -27,8 +27,8 @@ jobs:
         run: cargo build --verbose
       - name: Run tests
         run: cargo test --verbose
-      # - name: Build exemples
-      #   run: cargo build --exemples
-      # - run: cargo run --exemple <NAME1>
-      # - run: cargo run --exemple <NAME2>
+      - name: Run exemple simple
+        run: cargo run --exaple simple
+      - name: Run exemple multi-file
+        run: cargo run --exaple multi-file-example
         
