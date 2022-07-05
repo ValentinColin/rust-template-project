@@ -10,7 +10,7 @@ use test::Bencher;
 #[bench]
 fn fibo_fast(b: &mut Bencher) {
     b.iter(|| {
-        const N: i32 = 10000;
+        const N: u64 = 10000;
         let mut a = 0;
         let mut b = 1;
 
