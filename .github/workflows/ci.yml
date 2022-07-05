@@ -28,7 +28,7 @@ jobs:
       - name: Run tests
         run: cargo test --verbose
       - name: Run exemple simple
-        run: cargo run --exaple simple
+        run: cargo run --example simple
       - name: Run exemple multi-file
-        run: cargo run --exaple multi-file-example
+        run: cargo run --example multi-file-example
         
