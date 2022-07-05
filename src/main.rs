@@ -22,7 +22,10 @@
         unused_import_braces,
         unused_qualifications)]
 
+mod lib;
+use crate::lib::lib_hello;
+
 /// This function returns the greeting: `Hello, world!`
 fn main() {
-    println!("Hello World!");
+    lib_hello();
 }
