@@ -4,9 +4,19 @@
 | Required                                           | Recommended                                            | Optional                         |
 |:--------------------------------------------------:|:------------------------------------------------------:|:--------------------------------:|
 | Configure the [Cargo.toml](Cargo.toml) file        | Change [.github/FUNDING.yml](.github/FUNDING.yml) file | Change the [LICENCE](LICENCE)    |
-| Change the [README.md](README.md) file             |||
-| Change the [ci.yml](.github/workflows/ci.yml) file |||
+| Change the [README.md](README.md) file             |                                                        |                                  |
+| Change the [ci.yml](.github/workflows/ci.yml) file |                                                        |                                  |
 | :tada: Have fun !!! :tada:                         | :books: Learn :books:                                  | :star: Like this template :star: |
+
+## Description of directories
+
+| Directory             | Description                                    | Used by ...               |
+|-----------------------|------------------------------------------------|---------------------------|
+| [src/](src)           | The main directory containing the project code | `Cargo`                   |
+| [tests/](tests)       | The integration test directory                 | `Cargo`                   |
+| [benches/](benches)   | The benches directory                          | `Cargo` (nightly channel) |
+| [examples/](examples) | The example directory                          | `Cargo`                   |
+| [.github/](.github)   | The special github directory                   | `Github`                  |
 
 > delete everything before this
 
