@@ -11,7 +11,7 @@
 //! - Inner attribute: #![attr]
 //! - Outer attribute: #[attr]
 
-// Good pratice: use these attributes
+// Good practice: use these attributes
 #![deny(missing_docs,
         missing_debug_implementations,
         missing_copy_implementations,
