@@ -1,6 +1,6 @@
 [book]
 title = "Template for Rust project"
-authors = "Valentin Colin"
+authors = ["Valentin Colin"]
 language = "en"
 
 [output.html]
