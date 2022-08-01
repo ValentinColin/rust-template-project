@@ -2,9 +2,15 @@ name: Cargo Build & Test
 
 on:
   push:
-    branches: [ "master" ]
+    branches:
+      - master
+    paths-ignore:
+      - '.github/**'
   pull_request:
-    branches: [ "master" ]
+    branches:
+      - master
+    paths-ignore:
+      - '.github/**'
 
 env:
   CARGO_TERM_COLOR: always
