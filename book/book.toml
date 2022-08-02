@@ -2,7 +2,11 @@
 title = "Template for Rust project"
 authors = ["Valentin Colin"]
 language = "en"
+multilingual = false
 
 [output.html]
 git-repository-url = "https://github.com/ValentinColin/rust-template-project"
-site-url = "/rust-template-project/"
+mathjax-support = false
+
+[output.html.playground]
+editable = false
