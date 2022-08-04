@@ -1,12 +1,17 @@
 [book]
 title = "Template for Rust project"
+description = "Book, Wiki, Docs for the project"
 authors = ["Valentin Colin"]
 language = "en"
-multilingual = false
 
 [output.html]
+default-theme = "navy"
 git-repository-url = "https://github.com/ValentinColin/rust-template-project"
+edit-url-template = "https://github.com/ValentinColin/rust-template-project/edit/master/{path}"
 mathjax-support = false
+site-url = "/rust-template-project/" # required to ensure navigation links and script/css imports in the 404 file work correctly
 
 [output.html.playground]
+# If the option "editable" is set to "true", the "line-numbers" should also be set to "true" for editable blocks.
 editable = false
+line-numbers = false
