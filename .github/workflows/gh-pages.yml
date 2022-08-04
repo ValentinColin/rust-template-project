@@ -36,11 +36,8 @@ jobs:
 
       - name: Build the book
         run: |
-          ls -la
-          ls -la book/
-          mdbook build|
-          ls -la
-          ls -la book/
+          echo '${{ github.ref }}'
+          mdbook build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
