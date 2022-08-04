@@ -16,19 +16,21 @@ jobs:
   deploy:
     runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3
 
-      - name: Read ./.env
+      - name: Read .env
         id: mdbook-version
         run: |
-          source .env
+          source ./.env
           echo "::set-output name=MDBOOK_VERSION::${MDBOOK_VERSION}"
+
       - name: Setup mdbook
         uses: peaceiris/actions-mdbook@v1
         with:
           mdbook-version: '${{ steps.mdbook-version.outputs.MDBOOK_VERSION }}'
 
-      - name: Build
+      - name: Build the book
         run: mdbook build
 
       - name: Deploy
