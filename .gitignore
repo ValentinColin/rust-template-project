@@ -10,3 +10,11 @@ Cargo.lock
 
 # IDE
 .idea/
+
+# .env file
+.env
+
+# mdBook
+/book
+!/docs/.env
+
