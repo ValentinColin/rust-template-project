@@ -10,9 +10,12 @@
 ## Manual installation
 
 ```bash
-# https or ssh
+# clone https
 git clone https://github.com/ValentinColin/rust-template-project.git
+# or
+# clone ssh
 git clone git@github.com:ValentinColin/rust-template-project.git
 
+# Build a release version
 cargo build --release
 ```
