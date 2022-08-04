@@ -30,7 +30,7 @@ jobs:
 
       - name: Build
         run: |
-          pwd
+          ls -l
           mdbook build
 
       - name: Deploy
