@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js light">
+<html lang="en" class="sidebar-visible no-js navy">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
@@ -7,7 +7,7 @@
         <meta name="robots" content="noindex" />
         <!-- Custom HTML head -->
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
+        <meta name="description" content="Book, Wiki, Docs for the project">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
 
@@ -31,7 +31,7 @@
         <!-- Provide site root to javascript -->
         <script type="text/javascript">
             var path_to_root = "";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "navy";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
@@ -57,7 +57,7 @@
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
             html.classList.remove('no-js')
-            html.classList.remove('light')
+            html.classList.remove('navy')
             html.classList.add(theme);
             html.classList.add('js');
         </script>
@@ -94,10 +94,10 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy (default)</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
                         </ul>
                         <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
@@ -140,7 +140,6 @@
                     <main>
                         <p>This is a book that describe how to use the doc-book of this template</p>
 <p>See this <a href="https://rust-lang.github.io/rustup/index.html">tuto</a></p>
-<p>1111111111111111111111111111111111111111111111111</p>
 <div style="break-before: page; page-break-before: always;"></div><h2 id="system-requirement"><a class="header" href="#system-requirement">System requirement</a></h2>
 <ol>
 <li>Any system with basic configuration.</li>
@@ -151,10 +150,13 @@
 <li>Cargo/Rust installed (If not download it <a href="https://doc.rust-lang.org/cargo/getting-started/installation.html">here</a>).</li>
 </ol>
 <h2 id="manual-installation"><a class="header" href="#manual-installation">Manual installation</a></h2>
-<pre><code class="language-bash"># https or ssh
+<pre><code class="language-bash"># clone https
 git clone https://github.com/ValentinColin/rust-template-project.git
+# or
+# clone ssh
 git clone git@github.com:ValentinColin/rust-template-project.git
 
+# Build a release version
 cargo build --release
 </code></pre>
 <div style="break-before: page; page-break-before: always;"></div><h2 id="tests"><a class="header" href="#tests">Tests</a></h2>
