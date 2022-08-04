@@ -35,7 +35,12 @@ jobs:
           mdbook-version: '${{ steps.mdbook-version.outputs.MDBOOK_VERSION }}'
 
       - name: Build the book
-        run: mdbook build
+        run: |
+          ls -la
+          ls -la book/
+          mdbook build|
+          ls -la
+          ls -la book/
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
