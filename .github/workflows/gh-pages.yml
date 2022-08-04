@@ -29,7 +29,9 @@ jobs:
           mdbook-version: '${{ steps.mdbook-version.outputs.MDBOOK_VERSION }}'
 
       - name: Build
-        run: mdbook build
+        run: |
+          pwd
+          mdbook build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
