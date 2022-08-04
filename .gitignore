@@ -12,6 +12,6 @@ Cargo.lock
 .idea/
 
 # mdBook
-/book
+/docs/book/
 !/docs/.env
 
