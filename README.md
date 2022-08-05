@@ -37,7 +37,7 @@
 
 ## Project Description
 
-This project is awesome
+This project is awesome writing in [rust](https://www.rust-lang.org/fr/)
 
 ## Table of Contents
 
@@ -70,22 +70,22 @@ git clone git@github.com:ValentinColin/rust-template-project.git
 cargo build --release
 ```
 
-## Usage
-
-```bash
-cargo run --release
-```
-
 ## Tests
 
 ```bash
 cargo test
 ```
 
+## Usage
+
+```bash
+cargo run --release
+```
+
 <!--
 ## How to Contribute
 
-Thank you for considering and taking the time to contribute! Before contributing kindly read and follow [Code of Conduct](CODE_OF_CONDUCT.md). To help new developers/contributors there are set of instructions added in [CONTRIBUTING.md](CONTRIBUTING.md). Which describes the intial stages for working on this project. Also refer the [MIT License](LICENSE).
+Thank you for considering and taking the time to contribute! Before contributing kindly read and follow [Code of Conduct](CODE_OF_CONDUCT.md). To help new developers/contributors there are set of instructions added in [CONTRIBUTING.md](CONTRIBUTING.md). Which describes the initial stages for working on this project. Also refer the [MIT License](LICENSE).
 -->
 
 ## Potential Maintainers
