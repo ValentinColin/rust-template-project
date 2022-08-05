@@ -90,7 +90,7 @@ Thank you for considering and taking the time to contribute! Before contributing
 
 ## Potential Maintainers
 
-:pushpin: [Valentin Colin](https://github.com/ValentinColin)
+📌 [Valentin Colin](https://github.com/ValentinColin)
 
 ## Credits
 
