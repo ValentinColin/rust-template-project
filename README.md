@@ -26,7 +26,7 @@
 
 <div align="center">
     
-    <!-- see https://shields.io/ -->
+<!-- see https://shields.io/ -->
 
 ![Issues tag](https://img.shields.io/github/issues/ValentinColin/rust-template-project)
 ![Forks tag](https://img.shields.io/github/forks/ValentinColin/rust-template-project)
