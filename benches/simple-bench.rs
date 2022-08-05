@@ -6,7 +6,6 @@
 extern crate test;
 use test::Bencher;
 
-
 #[bench]
 fn fibo_fast(b: &mut Bencher) {
     b.iter(|| {
