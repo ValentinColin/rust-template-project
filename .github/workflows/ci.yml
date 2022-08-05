@@ -70,7 +70,7 @@ jobs:
 
       - name: Benches
         if: matrix.benches
-        run: cargo test --benches
+        run: cargo bench
 
       - name: Run example simple
         run: cargo run --example simple
