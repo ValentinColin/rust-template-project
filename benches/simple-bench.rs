@@ -12,7 +12,7 @@ fn fibo_fast(b: &mut Bencher) {
         const N: u64 = 10000;
         let mut a = 0;
         let mut b = 1;
-        
+
         if N != 0 {
             for _ in 0..N {
                 let c = a + b;
