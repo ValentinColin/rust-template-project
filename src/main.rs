@@ -1,15 +1,14 @@
 //! Description of this crate
-//!
-//! Careful to the syntax:
-//!
-//! |               | Inner         | Outer         |
-//! |---------------|:-------------:|:-------------:|
-//! | Line          | //! blabla    | /// blabla    |
-//! | Block         | /*! blabla */ | /** blabla */ |
-//! | attribute     | #![attr]      | #[attr]       |
-//!
-//! - Inner attribute: #![attr]
-//! - Outer attribute: #[attr]
+
+// Careful to the syntax:
+//
+// | Documentation | Inner         | Outer         |
+// |---------------|:-------------:|:-------------:|
+// | Line          | //! blabla    | /// blabla    |
+// | Block         | /*! blabla */ | /** blabla */ |
+//
+// - Inner attribute: #![attr]
+// - Outer attribute: #[attr]
 
 // Good practice: use these attributes
 #![deny(
