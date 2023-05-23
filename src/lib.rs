@@ -1,5 +1,12 @@
+use crate::prelude::Result;
+
 pub fn lib_hello() {
     println!("Hello from src/lib.rs");
+}
+
+pub fn greet() -> Result<()> {
+    println!("Hello World!");
+    Ok(())
 }
 
 #[allow(dead_code)]
