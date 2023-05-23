@@ -23,12 +23,12 @@
     unused_qualifications
 )]
 
-use crate::lib::greet;
-use crate::prelude::*;
-
 mod error;
 mod lib;
 mod prelude;
+
+use crate::lib::greet;
+use crate::prelude::*;
 
 /// This function returns the greeting: `Hello, world!`
 fn main() -> Result<()> {
