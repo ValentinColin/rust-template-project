@@ -1,5 +1,6 @@
 use crate::prelude::Result;
 
+mod error;
 mod prelude;
 
 pub fn lib_hello() {
