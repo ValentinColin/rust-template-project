@@ -1,5 +1,7 @@
 use crate::prelude::Result;
 
+mod prelude;
+
 pub fn lib_hello() {
     println!("Hello from src/lib.rs");
 }
